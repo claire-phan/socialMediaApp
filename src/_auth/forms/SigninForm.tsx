@@ -80,7 +80,7 @@ const SigninForm = () => {
               <FormItem>
                 <FormLabel>Password</FormLabel>
                 <FormControl>
-                  <Input type="password" className="shad-input" {...field} />
+                  <Input type="password" className="shad-input" {...field} autoComplete="new-password"/>
                 </FormControl>
                 <FormMessage />
               </FormItem>
