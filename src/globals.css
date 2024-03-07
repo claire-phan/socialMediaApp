@@ -267,7 +267,12 @@
 
   /* Button */
   .shad-button_primary {
-    @apply bg-primary-500 hover:bg-primary-500 text-light-1 flex gap-2 !important;
+    @apply bg-primary-500 border-none text-light-1 pt-2 w-full mt-4 !important;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .shad-button_primary:hover {
+    transform: scale(1.05);
   }
 
   .shad-button_dark_4 {
